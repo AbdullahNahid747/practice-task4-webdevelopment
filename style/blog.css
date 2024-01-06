@@ -42,10 +42,11 @@ nav a{
 } */
 /* Header related style */
 .header{
-    background: #ccbcb0;
-    background-image: url("../images/header_bg.png"), url(../images/developer.png);
+    background: #ddd0c6;
+    background-image: url("../images/banner/banner1.png");
     background-repeat: no-repeat;
-    background-position: bottom right, top left;
+    height: 808px;
+    max-width: 1600px;
 }
 .banner{
     padding: 216px 230px 364px 845px;
@@ -69,4 +70,50 @@ nav a{
 #button{
     border-radius: 5px;
     background: #F15B22;
+}
+/* main related style */
+.section-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-description{
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+    /* width: 50%; */
+}
+.list{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* section related style */
+main{
+
+} 
+.img{
+    margin: 140px 82px 0 230px;
+    background: #f8f2f2;
+}
+
+.bennar{
+    display: flex;
+}
+.no{
+    margin: 470px 500px 150px 0px;
+    background-color: #f0efef;
+}
+.section-title{
+    text-align: center;
+    color:#151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+.skills-containar{
+    display: flex;
 }
