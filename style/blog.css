@@ -1,0 +1,72 @@
+/* common shared style */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+        border-radius: 5px;
+         background: #FD6E0A;
+         border: 0;
+         color: white;
+         font-size: 20px;
+        font-weight: 700;
+        padding: 15px 35px;
+}
+/* nav related styles */
+/* nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul{
+    align-items: center;
+    display: flex;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 50px ;
+
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+} */
+/* Header related style */
+.header{
+    background: #ccbcb0;
+    background-image: url("../images/header_bg.png"), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+.banner{
+    padding: 216px 230px 364px 845px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-title{
+    margin-bottom: 0;
+    color: , #151414;
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner-description{
+    color:  #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 53px;
+}
+#button{
+    border-radius: 5px;
+    background: #F15B22;
+}
